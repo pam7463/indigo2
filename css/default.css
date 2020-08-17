@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+/* 기본스타일 */
+.clearfix::after{
+  content:'';
+  display:block;
+}
+.container{
+  width:90%;
+  margin:0 auto;
+  /* 324/360*100 */
+}
+.sub_tit{
+  font-size:32px;
+  color:#3f51b5;
+}
+.sub_txt{
+  font-size:14px;
+  color:#616161;
+}
+.icons_tit{
+  font-size:14px;
+  color:#3f51b5;
+}
+.blog_date{
+  font-size:10px;
+  color:#a8a8a8;
+}
+
+
+
+/* 테블릿스타일 */
+@media (min-width:768px){
+
+}
+
+
+
+
+
+/* 피시스타일 */
+@media (min-width:1132px){
+
+}
