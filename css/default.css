@@ -298,12 +298,18 @@ h1>a{
     margin:0;
   }
   .section.contact>.container>form{
-    height:200px;
+    height:270px;
     flex-wrap:wrap;
+  }
+  .section.contact>.container>form>input{
+    margin:16px 0;
   }
   .section.contact>.container>form>input,
   .section.contact>.container>form>textarea{
     width:48.69791666666667%;
+  }
+  .section.contact>.container>form>textarea{
+    align-self:flex-end;
   }
 
 }
@@ -337,5 +343,15 @@ h1>a{
   .section.blog>.container>li:last-child{
     margin:0;
   }
-  
+  .section.contact>.container{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+  }
+  .section.contact>.container>.sub_tit{
+    width:23.67491166077739%;
+  }
+  .section.contact>.container>form{
+    width:74.5583038869258%;
+  }
 }
