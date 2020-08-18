@@ -27,6 +27,7 @@
 .icons_tit{
   font-size:14px;
   color:#3f51b5;
+  margin:26px 0;
 }
 .blog_date{
   font-size:10px;
@@ -103,6 +104,21 @@ h1>a{
   justify-content:space-between;
   align-items:center;
 }
+.section.promotion>.container>li{
+  float:left;
+  width:100%;
+  padding:30px 0;
+}
+.section.promotion>.container>li>a{
+  display:block;
+  text-align:center;
+}
+.section.promotion>.container>li>a>img{
+  height:60px;
+}
+.section.promotion>.container>li>a>.sub_txt{
+  line-height:20px;
+}
 
 
 
@@ -142,6 +158,14 @@ h1>a{
   #tgl_btn{display:none;}
   .section.display{
     height:200px;
+  }
+  .section.promotion>.container>li{
+    width:23.67491166077739%;
+    margin-right:1.76678445229682%;
+    padding:0 1.76678445229682%;
+  }
+  .section.promotion>.container>li:last-child{
+    margin-right:0;
   }
 }
 
