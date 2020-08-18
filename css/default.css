@@ -198,6 +198,43 @@ h1>a{
   line-height:20px;
   text-align:left;
 }
+.section.contact{}
+.section.contact>.container{}
+.section.contact>.container>form{
+  display:flex;
+  flex-flow:column nowrap;
+}
+.section.contact>.container>form>input,
+.section.contact>.container>form>textarea{
+  margin:10px 0;
+  border-bottom:1px solid #cccccc;
+  padding:10px;
+}
+/* .section.contact>.container>form>input::-moz-placeholder,
+.section.contact>.container>form>input::-webkit-placeholder, */
+.section.contact>.container>form>input::placeholder,
+/* .section.contact>.container>form>textarea::-moz-placeholder,
+.section.contact>.container>form>textarea::-webkit-placeholder, */
+.section.contact>.container>form>textarea::placeholder{
+  color:#3f51b5;
+}
+
+.section.contact>.container>form>input[type="text"]{}
+.section.contact>.container>form>input[type="tel"]{}
+.section.contact>.container>form>input[type="email"]{}
+.section.contact>.container>form>textarea{}
+.section.contact>.container>form>button{
+  width:26%;
+  border:none;
+  border-radius:10px;
+  outline:none;
+  padding:20px 0;
+  font-size:18px;
+  color:#ffffff;
+  background:#3f51b5;
+  cursor: pointer;
+  align-self:flex-end;
+}
 
 
 
@@ -260,6 +297,15 @@ h1>a{
   .section.blog>.container>li:last-child{
     margin:0;
   }
+  .section.contact>.container>form{
+    height:200px;
+    flex-wrap:wrap;
+  }
+  .section.contact>.container>form>input,
+  .section.contact>.container>form>textarea{
+    width:48.69791666666667%;
+  }
+
 }
 
 
